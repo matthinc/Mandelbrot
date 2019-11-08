@@ -13,7 +13,7 @@ package eu.mrupp.mandelbrot.math
  */
 fun Complex.mandelbrot(maxIterations: Int): Int {
     // Initialize z with 0 (= 0+0i)
-    var z = Complex(0.30, 0.0)
+    var z = Complex(0.0, 0.0)
 
     for (i in 0..maxIterations) {
         z = z.sqr() + this
